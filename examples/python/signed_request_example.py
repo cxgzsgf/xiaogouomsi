@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: Apache-2.0
 # Copyright 2026 Xiaogou Remote Control contributors
-"""公开接口签名示例。真实凭据只从环境变量读取。"""
+"""公开接口签名示例。真实凭据从环境变量读取。"""
 from __future__ import annotations
 
 import hashlib
