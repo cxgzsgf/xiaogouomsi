@@ -1,0 +1,45 @@
+{
+  "product": "小狗远程控制",
+  "protocol": "xiaogou-remote-control",
+  "version": "1.0",
+  "namespace": "xiaogou-remote-open/v1",
+  "note": "This public file describes abstract names only and does not expose any official vehicle mapping.",
+  "capabilities": [
+    "vehicle.status",
+    "telemetry.basic",
+    "ibis.line",
+    "ibis.route",
+    "ibis.next_stop",
+    "ibis.previous_stop",
+    "announcement.play",
+    "door.front",
+    "door.rear",
+    "lights.head",
+    "lights.hazard",
+    "lights.indicator",
+    "vendor.custom"
+  ],
+  "example_commands": [
+    "ibis.set_line",
+    "ibis.set_route",
+    "ibis.next_stop",
+    "ibis.previous_stop",
+    "announcement.play",
+    "door.front.open",
+    "door.front.close",
+    "door.rear.open",
+    "door.rear.close",
+    "lights.head.on",
+    "lights.head.off",
+    "lights.hazard.on",
+    "lights.hazard.off",
+    "lights.indicator.left",
+    "lights.indicator.right",
+    "lights.indicator.off"
+  ],
+  "security": {
+    "server_approval_required": true,
+    "vehicle_side_safety_check_required": true,
+    "client_capability_declaration_is_not_authorization": true
+  }
+}
