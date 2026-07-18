@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: Apache-2.0
 # Copyright 2026 Xiaogou Remote Control contributors
-"""不联网的抽象命令演示，不含任何真实车辆变量。"""
+"""不联网的命令演示，不含任何真实车辆变量。"""
 from __future__ import annotations
 
 from dataclasses import dataclass
