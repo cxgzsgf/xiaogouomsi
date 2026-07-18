@@ -8,7 +8,7 @@
 using xiaogou_remote::Command;
 using xiaogou_remote::ExecuteResult;
 
-// 车辆作者自行实现这一层。这里故意不提供任何具体 OMSI 变量或 Trigger。
+// 车辆作者自行实现这一层。这里不提供任何具体 OMSI 变量或 Trigger。
 class LocalVehicleIo {
 public:
     virtual ~LocalVehicleIo() = default;
